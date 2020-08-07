@@ -1,0 +1,77 @@
+.Messages-list {
+    padding: 60px 0;
+    width: 100%;
+    margin: 0 auto;
+    list-style: none;
+    padding-left: 0;
+    flex-grow: 1;
+    overflow: auto;
+    position: absolute;
+    display: block;
+    clear: both;
+  }
+  
+  .Messages-message {
+    display: flex;
+    margin-top: 15px;
+    clear: both;
+  }
+  
+  .Messages-message.currentMember {
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    text-align: right;
+    float: right;
+  }
+  
+  .Message-content {
+    display: inline-block;
+  }
+  
+  .currentMember > .Message-content {
+    align-items: flex-end;
+  }
+  
+  .Messages-message > .avatar {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 10px -10px;
+  }
+
+  @media screen and (max-width: 320px) {
+    .Messages-message > .avatar {
+      width: 50px;
+    }
+  }
+  
+  .Message-content > .username {
+    display: block;
+    color: gray;
+    font-size: 15px;
+    padding-bottom: 4px;
+  }
+  
+  .Message-content > .text {
+    padding: 10px;
+    max-width: 700px;
+    margin: 0;
+    border-radius: 12px;
+    background-color: #198ed9;
+    color:#FFF;
+    /* display: inline-block; */
+    font-size: 20px;
+    font-weight: normal;
+  }
+  
+  .currentMember > .Message-content .text {
+    background-color: silver;
+    color: #000;
+  }
+
+  a {
+    color: silver;
+  }
+
+  

@@ -1,0 +1,14 @@
+.AccountPage {
+    position: relative;
+    margin: 0 auto;
+    padding: 90px 35px;
+}
+
+.updateMsg {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.updateBtnMsg {
+    position: relative;
+}

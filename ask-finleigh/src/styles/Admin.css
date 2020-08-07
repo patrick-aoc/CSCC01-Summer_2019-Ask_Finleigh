@@ -1,0 +1,43 @@
+.AdminPage {
+    position: relative;
+    margin: 0 auto;
+    padding: 90px 35px;
+}
+
+.tableHistory {
+    padding-top: 25px;
+}
+
+.webcrawlButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.uploadButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tableHead {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+button {
+    background-color: #198ed9; /* Green */
+    font-weight: 500;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    padding: 7px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.analPage {
+    margin: 0 auto;
+}

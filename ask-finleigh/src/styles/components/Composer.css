@@ -1,0 +1,36 @@
+.msgWindow {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background: white;
+    border-top: 1px solid #eeeef1;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+  }
+
+.composeBox {
+    flex: 1;
+    border: none;
+    font-size: 22px;
+    font-weight: normal;
+    height: 40px;
+    background: none;
+    opacity: 0.5;
+    outline: none;
+  }
+
+  input[type=text] {
+    color: black;
+  }
+
+.composeButton {
+    outline: none;
+    padding: 0px 15px;
+    font-size: 20px;
+    background-color:white;
+    color: #198ed9;
+    border: none;
+    border-radius: 8px;
+    margin-left: 10px;
+  }

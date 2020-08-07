@@ -1,0 +1,36 @@
+# dependencies
+node_modules
+/.pnp
+.gradle
+.pnp.js
+
+# testing
+/coverage
+/ask-finleigh/cypress/videos/
+/ask-finleigh/cypress/screenshots/
+
+# production
+/backend/build
+/backend/src/main/generated
+/backend/resources
+/backend/out
+/backend/.gradle
+/backend/.ideaDataSources
+*.iml
+*.ipr
+*.iws
+
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.idea/
+/out
+
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

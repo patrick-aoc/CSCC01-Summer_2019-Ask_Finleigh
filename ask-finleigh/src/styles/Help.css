@@ -1,0 +1,14 @@
+.HelpPage {
+    font-size: 300px;
+    position: absolute;
+    margin: 0 auto;
+    padding: 90px 35px;
+}
+
+.questionsAnswers {
+    padding: 20px;
+}
+
+.answers {
+    text-indent: 50px;
+}
